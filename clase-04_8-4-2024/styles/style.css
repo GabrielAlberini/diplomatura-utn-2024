@@ -1,0 +1,15 @@
+body {
+  background-color: thistle;
+  background-image: url("https://imgs.search.brave.com/RDuOX4jV6R54DcdPV4BaJJJW9EURwFeuAubqFpBXJVk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAyMS8w/OS8xNi8wOC81Ni9s/ZWF2ZXMtNjYyOTU4/MV82NDAucG5n");
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  color: blue;
+  text-align: center;
+  font-style: italic;
+}
+
+.subtitle-diff {
+  color: tomato;
+}

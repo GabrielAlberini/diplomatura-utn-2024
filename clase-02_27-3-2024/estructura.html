@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- Metainformación -->
+  <head>
+    <!-- UTF-8 (8-bit Unicode Transformation Format) es un formato de codificación de caracteres -->
+    <meta charset="UTF-8" />
+    <!-- Etiqueta que se encarga de comunicarle al navegador que mi página es adaptable -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Clase 2 | HTML</title>
+  </head>
+  <!-- Etiqueta estructural que comunica que todo lo que este anidado dentro, es el cuerpo de la página web -->
+  <body>
+    <!--Seccion 1 Título principal-->
+    <section>
+      <h1>Diplomatura Fullstack - UTN</h1>
+      <img
+        src="./images/html.webp"
+        alt="Imagen de computadora con códgio HTML"
+        title="Imagen de computadora"
+      />
+    </section>
+
+    <!--Seccion 2 Nombre de clase -->
+    <section>
+      <h2>Segunda clase de la diplomatura - HTML</h2>
+      <strong>¡Importante no perderse la clase!</strong>
+    </section>
+
+    <!-- Seccion 3 Contenido de la clase -->
+    <section>
+      <h3>HTML - Presentación del lenguaje</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+        velit saepe iure nesciunt, expedita perferendis nihil, enim quo amet ex
+        sequi inventore eum illo culpa ipsum quis rerum maxime minus?
+      </p>
+    </section>
+
+    <!--Seccion 4 Qué son las etiquetas? -->
+    <section>
+      <h4>Etiquetas</h4>
+      <p>
+        Las etiquetas HTML son bloques de código que dan formato, funcionalidad
+        y estructura al contenido de las páginas web. Estos fragmentos sirven
+        como indicadores o instrucciones para que un navegador muestre de forma
+        adecuada la información contenida en tus documentos. Es importante
+        mencionar que el HTML
+        <b>no se considera un lenguaje de programación</b>, pues no crea
+        <strong>funciones dinámicas</strong>. No obstante, con el apoyo de las
+        etiquetas HTML, los desarrolladores pueden configurar diversas
+        estructuras para sus sitios web; por ejemplo: secciones, tablas,
+        párrafos, enlaces y atributos.
+      </p>
+    </section>
+
+    <!-- Seccion 5 Etiquetas de apertura y cierre -->
+    <section>
+      <h5>Etiquetas de apertura y cierre</h5>
+      <a
+        href="https://upanama.educativa.org/archivos/repositorio/6000/6207/html/5_etique.htm"
+        target="_blank"
+        >Ver documentación</a
+      >
+    </section>
+
+    <!--Seccion 6 Ejemplos de etiquetas -->
+    <section>
+      <h6>Ejemplos:</h6>
+      <ol>
+        <li>&lt;h1&gt; - Título principal</li>
+        <li>&lt;p&gt; - Párrafo</li>
+        <li>&lt;button&gt; - Botón</li>
+      </ol>
+      <ul>
+        <li>a - Link</li>
+        <li>section - Para definir una sección de contenido</li>
+      </ul>
+
+      <h2>Consulta:</h2>
+      <form>
+        <label>
+          Nombre:
+          <input placeholder="Ingrese su nombre" type="text" />
+        </label>
+        <label>
+          Teléfono:
+          <input type="tel" placeholder="Ingrese su teléfono" />
+        </label>
+        <label>
+          Correo electrónico:
+          <input type="email" placeholder="Ingrese su correo electrónico" />
+        </label>
+        <label>
+          Contraseña:
+          <input required type="password" placeholder="Ingrese su contraseña" />
+        </label>
+        <label>
+          Fecha:
+          <input type="date" placeholder="Seleccione fecha" />
+        </label>
+        <label>
+          Hora:
+          <input type="time" placeholder="Seleccione hora" />
+        </label>
+        <label>
+          Selecciona cancha:
+          <select>
+            <option selected>Seleccione una opción</option>
+            <option>Cancha del sur</option>
+            <option>Cancha del este</option>
+          </select>
+        </label>
+        <button type="submit">Enviar datos</button>
+      </form>
+    </section>
+  </body>
+</html>

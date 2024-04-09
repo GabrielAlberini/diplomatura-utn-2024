@@ -1,0 +1,67 @@
+/*
+px -> pixeles
+% -> porcentaje
+vh -> viewport height
+*/
+
+/*
+eje x -> izquierda a derecha 
+eje y -> de arriba a abajo
+*/
+
+/*
+padding -> relleno
+margin -> margen
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-image: url("../assets/script.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.87);
+  border: 3px solid black;
+  /* min-height: 100vh; */
+  padding: 20px;
+  /*
+    1 valor -> aplica en los 4 lados
+    2 valores -> el primero en eje Y el segundo en eje X
+    4 valores -> un para cada lado comenzando desde arriba
+    en sentido de las agujas del reloj
+  */
+  /* margin: 20px 200px 30px 200px; */
+  width: 50%;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+/* Selector multiple */
+
+h1,
+h2,
+li,
+h3,
+p {
+  margin-bottom: 20px;
+}
+
+ul {
+  margin-left: 20px;
+  list-style: lower-greek;
+}
