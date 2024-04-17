@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #e6eff6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+article {
+  width: 40%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: -6px 5px 17px -7px rgba(0, 0, 0, 0.75);
+  /* overflow: hidden; */
+}
+
+.cont-header-content {
+  padding: 20px;
+}
+
+h2 {
+  color: rgb(87, 185, 153);
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+h3 {
+  color: rgb(197, 224, 132);
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+article p {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.cont-item {
+  display: flex;
+}
+
+.cont-item div {
+  width: 50%;
+  padding: 20px;
+}
+
+.cont-subscription {
+  background-color: #2bb3b1;
+  border-bottom-left-radius: 10px;
+}
+
+.cont-subscription h4 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.cont-subscription strong {
+  font-size: 25px;
+  color: white;
+}
+
+.cont-subscription p {
+  color: rgb(226, 226, 226);
+}
+
+.cont-subscription button {
+  width: 100%;
+  padding: 5px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #bfdf32;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.116);
+}
+
+.cont-subscription button:hover {
+  background-color: #93ac27;
+}
+
+.cont-why-us {
+  color: white;
+  background-color: #49bebd;
+  border-bottom-right-radius: 10px;
+}
+
+.cont-why-us h4 {
+  margin-bottom: 10px;
+}
+
+.cont-why-us p {
+  color: white;
+}
