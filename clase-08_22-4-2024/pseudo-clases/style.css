@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* pseudoclases -> estilos para eventos de elementos html */
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+/* hover -> encima */
+a:hover {
+  background-color: yellowgreen;
+}
+
+button {
+  background-color: #cccccc;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* active -> le hago click */
+button:active {
+  animation: cambiarColor 1s alternate infinite linear;
+}
+
+@keyframes cambiarColor {
+  0% {
+    background-color: violet;
+  }
+  100% {
+    background-color: turquoise;
+  }
+}
+
+input {
+  padding: 5px;
+  border: 1px solid green;
+  outline: none;
+}
+
+/* focus -> seleccionado */
+input:focus {
+  background-color: #ccc;
+}
+
+/* visited -> cuando un link es utilizado */
+a:visited {
+  color: violet;
+}
+
+/* nth-child -> selecciona elemento por posición */
+.list-1 li:nth-child(2) {
+  color: blue;
+}
+
+.list-1 li:nth-child(3) {
+  color: red;
+}
+
+.list-1 li:first-child {
+  color: aqua;
+}
+
+.list-1 li:last-child {
+  color: green;
+  text-decoration: line-through;
+}
+
+a:not(.link) {
+  text-decoration: underline;
+}

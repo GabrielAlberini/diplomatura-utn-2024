@@ -52,7 +52,7 @@ h1 {
 }
 
 .color {
-  animation: color 4s infinite alternate linear;
+  animation: color 10s infinite alternate linear;
 }
 
 @keyframes color {
@@ -60,16 +60,7 @@ h1 {
     background-color: red;
   }
   10% {
-    background-color: yellow;
-  }
-  20% {
-    background-color: aqua;
-  }
-  30% {
-    background-color: blueviolet;
-  }
-  100% {
-    background-color: tomato;
+    background-color: orange;
   }
 }
 
