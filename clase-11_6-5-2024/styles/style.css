@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+:root {
+  --primary-color: rgb(128, 128, 245);
+  --secondary-color: rgb(240, 167, 33);
+}
+
+header {
+  background-color: var(--primary-color);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+header nav ul li a:hover {
+  color: var(--secondary-color);
+}
+
+section {
+  padding: 30px;
+  min-height: 100vh;
+}
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../assets/fondo.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#banner h1 {
+  font-size: 40px;
+}
+
+#banner p {
+  width: 70%;
+  font-size: 25px;
+  color: azure;
+}
+
+#projects,
+#education {
+  text-align: center;
+}
+
+#projects h2,
+#education h2,
+#contact h2 {
+  font-size: 30px;
+}
+
+#projects .container-grid-projects,
+#education .container-grid-education {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 20px;
+}
+
+#projects .card,
+#education .card {
+  padding: 20px;
+  border: 1px solid rgb(230, 230, 230);
+  box-shadow: 6px 5px 45px -15px rgba(155, 150, 150, 0.75);
+  border-radius: 10px;
+  transition: 0.3s transform;
+}
+
+#projects .card:hover {
+  transform: scale(1.03);
+}
+
+#projects .card a,
+#education .card a,
+#contact button {
+  text-decoration: none;
+  border: 1px solid rgb(165, 109, 5);
+  padding: 5px 10px;
+  display: block;
+  width: 50%;
+  margin: 10px auto;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+#education {
+  background-color: azure;
+}
+
+#education .card {
+  background-color: white;
+}
+
+/* Contacto */
+#contact h2 {
+  text-align: center;
+}
+
+form {
+  width: 70%;
+  padding: 30px;
+  margin: auto;
+}
+
+form * {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  border: none;
+  outline: none;
+}
+
+form input,
+textarea {
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+footer {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 880px) {
+  #education .container-grid-education,
+  #projects .container-grid-projects {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  #education .container-grid-education,
+  #projects .container-grid-projects {
+    grid-template-columns: 1fr;
+  }
+}
