@@ -1,0 +1,29 @@
+main {
+  background-color: azure;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 40%;
+  margin: auto;
+}
+
+main div {
+  background-color: yellowgreen;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+main div img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-weight: bold;
+}
