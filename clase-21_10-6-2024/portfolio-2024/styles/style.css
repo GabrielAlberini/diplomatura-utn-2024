@@ -1,0 +1,155 @@
+/* Header Section */
+.s-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s-header h1 {
+  font-size: 2rem;
+}
+
+.s-header h2 {
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+
+.cont-img-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-header img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.s-header ul {
+  display: flex;
+  list-style: none;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.s-header ul a {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 4px 4px;
+  border: 1px solid rgb(185, 185, 185);
+  border-radius: 5px;
+  background-color: white;
+  transition: 0.3s background-color ease;
+}
+
+.s-header ul a:hover {
+  background-color: rgb(185, 185, 185);
+}
+
+@media (max-width: 880px) {
+  .s-header  {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .s-header div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+}
+
+/* Bio section */
+
+/* Work section */
+
+.s-work article > div, 
+.s-education article > div {
+  margin-bottom: 20px;
+}
+
+.s-work h3, .s-work h4,
+.s-education h3, .s-education h4 {
+  margin-bottom: 5px;
+}
+
+.s-work a,
+.s-education a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.s-work a:hover,
+.s-education a:hover {
+  text-decoration: underline;
+}
+
+.s-work .cont-name-education,
+.s-education .cont-name-education {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Projects Section */
+
+.s-project article {
+  /* background-color: yellowgreen; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.s-project article > div {
+  border: 1px solid rgb(227, 227, 227);
+  padding: 5px;
+  border-radius: 8px;
+} 
+
+.s-project .cont-header-project {
+  /* background-color: azure; */
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.s-project .cont-header-project .production {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%;
+  display: block;
+  animation: blink 1s infinite alternate;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  } 100% {
+    opacity: 1;
+  }
+}
+
+.s-project p {
+  padding-bottom: 10px;
+}
+
+.s-project ul {
+  list-style: none;
+}
+
+.s-project li {
+  padding: 3px 5px;
+  border: 1px solid rgb(185, 185, 185);
+  background-color: rgb(185, 185, 185);
+  border-radius: 10px;
+  margin: 5px 0;
+  color: white;
+  font-size: 0.8rem;
+}
