@@ -1,0 +1,42 @@
+:root {
+  --gray-dark: rgb(70, 70, 70);
+}
+
+.theme-mode {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  border: none;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 50%;
+  border: 1px solid rgb(208, 208, 208);
+  display: flex;
+  justify-content: center;
+  background-color: var(--gray-dark);
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s transform ease;
+}
+
+.theme-mode:hover {
+  transform: scale(1.08);
+}
+
+#moon {
+  color: rgb(199, 196, 196);
+}
+
+#sun {
+  color: var(--gray-dark);
+  display: none;
+}
+
+.dark-mode {
+  background-color: var(--gray-dark);
+  color: white;
+}
+
+.dark-mode *:not(i) {
+  color: white;
+}
