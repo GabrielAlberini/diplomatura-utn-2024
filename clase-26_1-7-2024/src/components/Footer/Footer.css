@@ -1,0 +1,17 @@
+footer {
+  background-color: azure;
+  padding: 20px;
+  border-top: 1px solid rgb(199, 199, 199);
+}
+
+footer nav,
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+  gap: 10px;
+}

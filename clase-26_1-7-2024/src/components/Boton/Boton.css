@@ -1,0 +1,24 @@
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(123, 245, 245);
+  cursor: pointer;
+  transition: 0.3s opacity ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+button i {
+  transition: 0.3s color ease;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.invertir-boton {
+  flex-direction: row-reverse;
+}

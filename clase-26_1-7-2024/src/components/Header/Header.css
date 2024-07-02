@@ -1,0 +1,26 @@
+header {
+  padding: 20px;
+  background-color: azure;
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  width: 80px;
+  display: block;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+}
