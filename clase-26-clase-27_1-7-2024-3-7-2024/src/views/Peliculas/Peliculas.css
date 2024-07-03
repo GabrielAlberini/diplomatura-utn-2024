@@ -1,0 +1,58 @@
+.section-peliculas {
+  background-color: #272b33;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.section-peliculas > div img {
+  width: 60%;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.section-peliculas h1 {
+  text-align: center;
+  color: rgb(239, 188, 35);
+  font-size: 4rem;
+}
+
+.personajes .personaje {
+  background-color: #3c3e44;
+  border-radius: 20px 20px 20px 20px;
+  width: 250px;
+  margin: 20px;
+}
+
+.personajes .personaje .personaje-cont-img {
+  background-image: url("https://web.dragonball-api.com/images-compress/89980.webp");
+  background-size: cover;
+  border-radius: 20px 20px 0 0;
+  height: 400px;
+}
+
+.personajes .personaje img {
+  width: 200px;
+  margin: auto;
+  transform: translateY(-30px);
+  display: block;
+  transition: 0.4s transform ease;
+}
+
+.personajes .personaje img:hover {
+  transform: scale(0.7);
+}
+
+.personaje-data {
+  padding: 20px;
+}
+
+.personaje h3 {
+  color: white;
+  font-size: 30px;
+}
+
+.personaje h4 {
+  color: rgb(239, 188, 35);
+  font-size: 20px;
+}
