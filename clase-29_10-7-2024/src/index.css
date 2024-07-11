@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+p,
+a,
+li,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Logo */
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.logo span {
+  font-weight: 400;
+}
+
+/* Button */
+.btn {
+  text-decoration: none;
+  padding: 20px;
+  background-color: turquoise;
+  color: black;
+  transition: 0.3s transform;
+  display: inline-block;
+}
+
+/* Hover effect button */
+.hover-effect:hover {
+  transform: scale(1.1);
+}

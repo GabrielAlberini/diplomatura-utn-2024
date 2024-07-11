@@ -1,0 +1,12 @@
+.cont-social-links {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.cont-social-links a {
+  display: inline-block;
+  color: black;
+  font-size: 1.5rem;
+}

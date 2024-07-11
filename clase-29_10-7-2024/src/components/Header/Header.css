@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  padding: 10px 0;
+  color: white;
+}
+
+header a {
+  display: block;
+  text-decoration: none;
+  border-bottom: 2px solid turquoise;
+  padding-bottom: 5px;
+  color: white;
+  transition: 0.3s transform ease;
+}
+
+header a:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 880px) {
+  header {
+    justify-content: space-between;
+  }
+  header h1,
+  header a {
+    margin: 20px;
+  }
+}
